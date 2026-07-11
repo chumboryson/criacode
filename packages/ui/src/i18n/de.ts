@@ -1,4 +1,4 @@
-import { dict as en } from "./en"
+﻿import { dict as en } from "./en"
 
 type Keys = keyof typeof en
 
@@ -78,7 +78,7 @@ export const dict = {
 
   "dialog.usageExceeded.freeTier.title": "Kostenloses Limit erreicht",
   "dialog.usageExceeded.freeTier.description":
-    "Abonniere OpenCode Go für zuverlässigen Zugriff auf die besten Open-Source-Modelle, ab $5/Monat.",
+    "Abonniere Cria Code für zuverlässigen Zugriff auf die besten Open-Source-Modelle, ab $5/Monat.",
   "dialog.usageExceeded.freeTier.actionLabel": "Abonnieren",
   "dialog.usageExceeded.accountRateLimit.title": "Go-Limit erreicht",
   "dialog.usageExceeded.accountRateLimit.description":
