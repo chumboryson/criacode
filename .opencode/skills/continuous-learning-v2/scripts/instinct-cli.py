@@ -1,4 +1,4 @@
-#!/usr/bin/env python3
+﻿#!/usr/bin/env python3
 """
 Instinct CLI - Manage instincts for Continuous Learning v2
 
@@ -763,7 +763,7 @@ def cmd_status(args) -> int:
 
 
 def _warn_legacy_data() -> None:
-    """Warn if legacy ~/.claude/homunculus/ contains data while the active
+    """Warn if legacy ~/.config/opencode/homunculus/ contains data while the active
     path has moved to the XDG directory."""
     legacy_dir = Path.home() / ".claude" / "homunculus"
     if legacy_dir == HOMUNCULUS_DIR:

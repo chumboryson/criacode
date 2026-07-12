@@ -1,4 +1,4 @@
----
+﻿---
 name: council
 description: Convene a four-voice council for ambiguous decisions, tradeoffs, and go/no-go calls. Use when multiple valid paths exist and you need structured disagreement before choosing.
 origin: ECC
@@ -153,7 +153,7 @@ Keep it scannable on a phone screen.
 
 ## Persistence Rule
 
-Do **not** write ad-hoc notes to `~/.claude/notes` or other shadow paths from this skill.
+Do **not** write ad-hoc notes to `~/.config/opencode/notes` or other shadow paths from this skill.
 
 If the council materially changes the recommendation:
 - use `knowledge-ops` to store the lesson in the right durable location

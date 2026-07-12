@@ -1,4 +1,4 @@
----
+﻿---
 name: plankton-code-quality
 description: "Write-time code quality enforcement using Plankton — auto-formatting, linting, and Claude-powered fixes on every file edit via hooks."
 origin: community
@@ -85,14 +85,14 @@ uv sync --all-extras
 claude
 ```
 
-No install command, no plugin config. The hooks in `.claude/settings.json` are picked up automatically when you run Claude Code in the Plankton directory.
+No install command, no plugin config. The hooks in `.opencode/opencode.jsonc` are picked up automatically when you run Claude Code in the Plankton directory.
 
 ### Per-Project Integration
 
 To use Plankton hooks in your own project:
 
-1. Copy `.claude/hooks/` directory to your project
-2. Copy `.claude/settings.json` hook configuration
+1. Copy `.opencode/hooks/` directory to your project
+2. Copy `.opencode/opencode.jsonc` hook configuration
 3. Copy linter config files (`.ruff.toml`, `biome.json`, etc.)
 4. Install the linters for your languages
 
@@ -138,7 +138,7 @@ If running both ECC and Plankton hooks:
 
 ## Configuration Reference
 
-Plankton's `.claude/hooks/config.json` controls all behavior:
+Plankton's `.opencode/hooks/config.json` controls all behavior:
 
 ```json
 {
