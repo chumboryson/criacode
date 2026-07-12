@@ -1,4 +1,4 @@
-﻿export const dict: Record<string, string> = {
+export const dict: Record<string, string> = {
   "ui.sessionReview.title": "Зміни сесії",
   "ui.sessionReview.title.git": "Зміни Git",
   "ui.sessionReview.title.branch": "Зміни гілки",
@@ -74,7 +74,7 @@
 
   "dialog.usageExceeded.freeTier.title": "Безкоштовний ліміт вичерпано",
   "dialog.usageExceeded.freeTier.description":
-    "Підпишіться на Cria Code для надійного доступу до найкращих моделей із відкритим кодом від $5 на місяць.",
+    "Підпишіться на OpenCode Go для надійного доступу до найкращих моделей із відкритим кодом від $5 на місяць.",
   "dialog.usageExceeded.freeTier.actionLabel": "Підписатися",
   "dialog.usageExceeded.accountRateLimit.title": "Ліміт Go вичерпано",
   "dialog.usageExceeded.accountRateLimit.description":
